@@ -450,8 +450,8 @@ double calc(double n)
 
 /******************************************************************************
   * MOD version of Differential Sequence
-  * cof should not overflow MOD
-  * MOD should should not less than order
+  * cof <= MOD
+  * MOD >= order
   * MOD should be prime
   * need inverse in mod MOD system
   ****************************************************************************/
